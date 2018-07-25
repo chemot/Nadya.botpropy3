@@ -11,35 +11,35 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-ririn = LINE("EsdR19LLWC6MVxSf0Cb5.qzjQVWZ0ZEOc9BUr4r9zrq.eGdKw5YJkpX6J6O/Zc6mQzyZVcwiA3ZWbyPjV46VRlo=")
+ririn = LINE("Evnp9RNguyi0ImpKK4cc.3cUIWz3JUG1YYy/OUkNFla.PH9PqfSX8eOzXSQOLdUBgDa6IPQXs7Bvn7FkjdQCq04=")
 #ririn = LINE("TOKEN KAMU")
 #ririn = LINE("Email","Password")
 ririn.log("Auth Token : " + str(ririn.authToken))
 channelToken = ririn.getChannelResult()
 ririn.log("Channel Token : " + str(channelToken))
 
-ki = LINE("EsTFbxUhbNEyMJc8a3Gb.cY6+YCBCDcB6/j3HdvZCAW.KlAbXbDvpnz+fWW+0V9GjqkVY1Do4K+JPbsXFPlDIHc=")
+ki = LINE("EvR8aITdbFuNFeozKpic.Uv/0YYcEoAwu5rWj4Sx9Ja.hzjzsBc4NPlEvVTjlJvyeBrAE0RLnoAGBM6MC+YAzYs=")
 #ki = LINE("TOKEN KAMU")
 #ki = LINE("Email","Password")
 ki.log("Auth Token : " + str(ki.authToken))
 channelToken = ki.getChannelResult()
 ki.log("Channel Token : " + str(channelToken))
 
-ki2 = LINE("EsuQOMu37XbfE6PWbUw1.Sl2u8yHwWYZHMslzI9Bi8q.uabGU7e4vGIFBf67xIvbUyR0Myxtvdshm9FVQzU8zg8=")
+ki2 = LINE("EviS12RP7gGcZAxu1z40.9T/PGPFdadrWbCl3Gzx/Ga.m3al7REHGLYWhopYE+4gVITfYjnIgOy+/iiV8Ex+vYs=")
 #ki2 = LINE("TOKEN KAMU")
 #ki2 = LINE("Email","Password")
 ki2.log("Auth Token : " + str(ki2.authToken))
 channelToken = ki2.getChannelResult()
 ki2.log("Channel Token : " + str(channelToken))
 
-ki3 = LINE("Esdi76sv2b3VDT7ysWW8.M53qiD/PJ1i6qsVfYwB7Ea.6THnYxTGBDeb0HxSuZ0t/d7z9/dAh3ibODLJslVYt98=")
+ki3 = LINE("EvpZrUTC3yLom40q7AJd.tLlReCirgG96uB+Q5pwO+q.5rCW4GD0YlmXddHMOkwQ7ojKgfjg9OcxyRqaBpKfjvY=")
 #ki3 = LINE("TOKEN KAMU")
 #ki3 = LINE("Email","Password")
 ki3.log("Auth Token : " + str(ki3.authToken))
 channelToken = ki3.getChannelResult()
 ki3.log("Channel Token : " + str(channelToken))
 
-ki4 = LINE("Esy9TWqsCuyZ5sk2EWd3.LTjIccO9HW0I2OLJ9e3wmW.vsq04JKRbld65jL5zwzMKGFZobtWUqH5CCG1Sas43L0=")
+ki4 = LINE("Ev2MvRD44VmDSKeK9p94.9UGdRKZXRTi7Enfms1+LPa.2/FUQGiwMg4Wfd8XT+ksCirn1sjKGrzxM0VeJXQ953Y=")
 #ki4 = LINE("TOKEN KAMU")
 #ki4 = LINE("Email","Password")
 ki4.log("Auth Token : " + str(ki4.authToken))
@@ -56,9 +56,9 @@ ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 
 Bots = [ririnMID,kiMID,ki2MID,ki3MID,ki4MID]
-creator = ["ueca4120a9d7b0e4a9e7f4f1b1b96a436"]
-Owner = ["ueca4120a9d7b0e4a9e7f4f1b1b96a436"]
-admin = ["ueca4120a9d7b0e4a9e7f4f1b1b96a436","u40d66b1f1c5ce30fdce9507a73247ef1","uc2d366327a79c98701b0b8bd9e08c0c9","ubcce0f23f428d75703fb33ee06c083b6","ubd3c3fa2c0128918d5b484caa42f9fee","u6fc2dc5f5f0d0fc6a4d2e92626afb742"]
+creator = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+Owner = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+admin = ["uea36cc53121bef94d1e01ccc5dd29018","uc5676bcfe5b7409487dc9b129dd17909","u81196d0a27964b33b2123cfe165d7b36","u970bb76e49958f3d9e980e3a8e6ac36a","u91bb57b10dabe43801a6fffe8ad89340","u6c677eb0ad0e77c46a5e35a59765d111","u61a9b5ce8de3eb51a859410c9834e5c8"]
 
 ririnProfile = ririn.getProfile()
 kiProfile = ki.getProfile()
