@@ -206,9 +206,9 @@ def helpmessage():
                   "╠➥ MimicList" + "\n" + \
                   "╠➥ MimicAdd「Mention」" + "\n" + \
                   "╠➥ MimicDel「Mention」" + "\n" + \
-                  "╠➥ Mention" + "\n" + \
-                  "╠➥ Lurking「Oɴ/Off/Reset」" + "\n" + \
-                  "╠➥ Lurking" + "\n" + \
+                  "╠➥ Sepi" + "\n" + \
+                  "╠➥ Cctv「Oɴ/Off/Reset」" + "\n" + \
+                  "╠➥ Ciduk" + "\n" + \
                   "║" + "\n" + \
                   "╠✪〘 Media 〙✪════════" + "\n" + \
                   "╠➥ Kalender" + "\n" + \
