@@ -139,7 +139,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+                  "╠♥ ¤¤ sᴇᴘʀɪ ᴘʀᴏᴛᴇᴄᴛ ¤¤" + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
@@ -237,7 +237,7 @@ def helpmessage():
                   "╠➥ JoinAll" + "\n" + \
                   "╠➥ ByeAll" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  "╚═〘 ¤¤ sᴇᴘʀɪ ᴘʀᴏᴛᴇᴄᴛ ¤¤ 〙"
     return helpMessage
     
 def helptexttospeech():
@@ -408,7 +408,7 @@ def helptranslate():
                        "╠ fil : Filipino" + "\n" + \
                        "╠ he : Hebrew" + "\n" + \
                        "╚══〘 Jangan Typo 〙" + "\n" + "\n\n" + \
-                         "Contoh : tr-en Nadya Cantik"
+                         "Contoh : tr-en sᴇᴘʀɪ ᴘʀᴏᴛᴇᴄᴛ"
     return helpTranslate
 #==============================================================================#
 def backupData():
@@ -573,7 +573,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     ririn.sendMessage(to, str(helpMessage))
-                    ririn.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
+                    ririn.sendContact(to, "u9f09cfcb17d037e2936b751bd9d40ead")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     ririn.sendMessage(to, str(helpTextToSpeech))
@@ -600,7 +600,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u14f64e139a3817afaabe27d237afb36b"
+                        owner = "u9f09cfcb17d037e2936b751bd9d40ead"
                         creator = ririn.getContact(owner)
                         contact = ririn.getContact(ririnMID)
                         grouplist = ririn.getGroupIdsJoined()
@@ -614,7 +614,7 @@ def lineBot(op):
                         ret_ += "\n╠══[ About Selfbot ]"
                         ret_ += "\n╠ Version : Premium"
                         ret_ += "\n╠ Creator : {}".format(creator.displayName)
-                        ret_ += "\n╚══[ Dilarang Remake Tanpa Ijin :P ]"
+                        ret_ += "\n╚══[]"
                         ririn.sendMessage(to, str(ret_))
                     except Exception as e:
                         ririn.sendMessage(msg.to, str(e))
@@ -689,10 +689,10 @@ def lineBot(op):
                             ririn.sendMessage(msg.to,"The Ownerlist is empty")
                         else:
                             ririn.sendMessage(msg.to,"Tunggu...")
-                            mc = "╔═══════════════\n╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥\n╠══✪〘 Owner List 〙✪═══\n"
+                            mc = "╔═══════════════\n╠¤¤ sᴇᴘʀɪ ᴘʀᴏᴛᴇᴄᴛ ¤¤\n╠══✪〘 Owner List 〙✪═══\n"
                             for mi_d in admin:
                                 mc += "╠✪ " +ririn.getContact(mi_d).displayName + "\n"
-                            ririn.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~nad_nad. 〙\n╚═══════════════")
+                            ririn.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~sepriche 〙\n╚═══════════════")
 #-------------------------------------------------------------------------------
                 elif msg.text.lower().startswith("adminadd "):
                     if msg._from in Owner:
@@ -740,10 +740,10 @@ def lineBot(op):
                             ririn.sendMessage(msg.to,"The Adminlist is empty")
                         else:
                             ririn.sendMessage(msg.to,"Tunggu...")
-                            mc = "╔═══════════════\n╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥\n╠══✪〘 Admin List 〙✪═══\n"
+                            mc = "╔═══════════════\n╠¤¤ sᴇᴘʀɪ ᴘʀᴏᴛᴇᴄᴛ ¤¤\n╠══✪〘 Admin List 〙✪═══\n"
                             for mi_d in admin:
                                 mc += "╠✪ " +ririn.getContact(mi_d).displayName + "\n"
-                            ririn.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~nad_nad. 〙\n╚═══════════════")
+                            ririn.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~sepriche 〙\n╚═══════════════")
 #-------------------------------------------------------------------------------
                 elif text.lower() == 'protect on':
                     if msg._from in Owner:
@@ -1309,7 +1309,7 @@ def lineBot(op):
                                                 except:
                                                     ririn.sendMessage(msg.to,"") 
 #==============================================================================#          
-                elif text.lower() == 'mention':
+                elif text.lower() == 'sepi':
                     group = ririn.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
                     k = len(nama)//100
@@ -1323,7 +1323,7 @@ def lineBot(op):
                             txt += u'@Alin \n'
                         ririn.sendMessage(to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
                         ririn.sendMessage(to, "Total {} Mention".format(str(len(nama))))          
-                elif text.lower() == 'lurking on':
+                elif text.lower() == 'cctv on':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -1365,7 +1365,7 @@ def lineBot(op):
                             json.dump(read, fp, sort_keys=True, indent=4)
                             ririn.sendMessage(msg.to, "Set reading point:\n" + readTime)
                             
-                elif text.lower() == 'lurking off':
+                elif text.lower() == 'cctv off':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -1389,7 +1389,7 @@ def lineBot(op):
                               pass
                         ririn.sendMessage(msg.to, "Delete reading point:\n" + readTime)
     
-                elif text.lower() == 'lurking reset':
+                elif text.lower() == 'cctv reset':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -1413,7 +1413,7 @@ def lineBot(op):
                     else:
                         ririn.sendMessage(msg.to, "Lurking belum diaktifkan ngapain di reset?")
                         
-                elif text.lower() == 'lurking':
+                elif text.lower() == 'ciduk':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
