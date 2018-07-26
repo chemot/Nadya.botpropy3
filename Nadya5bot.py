@@ -58,7 +58,7 @@ ki4MID = ki4.profile.mid
 Bots = [ririnMID,kiMID,ki2MID,ki3MID,ki4MID]
 creator = ["u9f09cfcb17d037e2936b751bd9d40ead"]
 Owner = ["u9f09cfcb17d037e2936b751bd9d40ead"]
-admin = ["uea36cc53121bef94d1e01ccc5dd29018","uc5676bcfe5b7409487dc9b129dd17909","u81196d0a27964b33b2123cfe165d7b36","u970bb76e49958f3d9e980e3a8e6ac36a","u91bb57b10dabe43801a6fffe8ad89340","u6c677eb0ad0e77c46a5e35a59765d111","u61a9b5ce8de3eb51a859410c9834e5c8"]
+admin = ["uea36cc53121bef94d1e01ccc5dd29018","ud09e25c0ca9489be645b4afb00c27ee4","u81196d0a27964b33b2123cfe165d7b36","u970bb76e49958f3d9e980e3a8e6ac36a","u91bb57b10dabe43801a6fffe8ad89340","u6c677eb0ad0e77c46a5e35a59765d111","u61a9b5ce8de3eb51a859410c9834e5c8"]
 
 ririnProfile = ririn.getProfile()
 kiProfile = ki.getProfile()
